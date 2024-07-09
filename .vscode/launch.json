@@ -1,15 +1,6 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
-
-
-
-
         {
             "name": "Attach: Microsoft cloud sandbox",
             "type": "al",
@@ -24,24 +15,22 @@
             "numberOfSqlStatements": 10,
             "breakOnNext": "WebServiceClient"
         },
-        
-
         {
             "name": "climateapp",
-            "cwd": "climateapp",
+            "cwd": "${workspaceFolder}/climateapp",
             "request": "launch",
             "type": "dart"
         },
         {
             "name": "climateapp (profile mode)",
-            "cwd": "climateapp",
+            "cwd": "${workspaceFolder}/climateapp",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
             "name": "climateapp (release mode)",
-            "cwd": "climateapp",
+            "cwd": "${workspaceFolder}/climateapp",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
